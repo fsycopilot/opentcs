@@ -212,7 +212,7 @@ public class ConnectToServerDialog
 
     textFieldPort.setColumns(15);
     textFieldPort.setFont(textFieldPort.getFont());
-    textFieldPort.setText("1099");
+    textFieldPort.setText("1098");
     gridBagConstraints = new java.awt.GridBagConstraints();
     gridBagConstraints.gridx = 1;
     gridBagConstraints.gridy = 2;

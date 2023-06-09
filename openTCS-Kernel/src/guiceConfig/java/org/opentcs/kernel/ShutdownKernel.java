@@ -34,7 +34,7 @@ public class ShutdownKernel {
     }
 
     String hostName = args.length > 0 ? args[0] : "localhost";
-    int port = args.length > 1 ? Integer.parseInt(args[1]) : 55001;
+    int port = args.length > 1 ? Integer.parseInt(args[1]) : 45001;
 
     try {
       URL url = new URL("http", hostName, port, "/v1/kernel");

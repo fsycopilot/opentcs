@@ -79,7 +79,7 @@ public class ConnectionParamSet {
   }
 
   /**
-   * Creates a new instance for host "localhost" and port 1099.
+   * Creates a new instance for host "localhost" and port 1098.
    */
   public ConnectionParamSet() {
     this("Localhost", "localhost", Registry.REGISTRY_PORT);
@@ -93,7 +93,7 @@ public class ConnectionParamSet {
   public String getDescription() {
     return description;
   }
-  
+
   /**
    * Returns the host parameter.
    *
